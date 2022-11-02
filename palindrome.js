@@ -17,9 +17,17 @@ function names(str){
     console.log(str===rev)
 }
 names('madam')
-names('abaa')
+names('aba')
 
-let aaa = "i am study cypress"
+// let aaa = "i am study cypress"
 
-let bb = aaa.split(" ").reverse().join(" ")
-console.log(bb)
+// let bb = aaa.split(" ").reverse().join(" ")
+// console.log(bb)
+
+let Name = (str)=>{
+
+    let palindrome = str.split().reverse().join()
+    console.log(str===palindrome)
+}
+
+Name('madam')

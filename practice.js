@@ -39,3 +39,15 @@ let names1 = (str)=>{
 }
 names1('madam')
 names1('reviver')
+
+
+name1= 'abhijit'
+
+let rev1 = ''
+
+for(let i=0;i<name1.length;i++){
+    rev1 = name1[i]+rev1
+
+}
+
+console.log(rev1)

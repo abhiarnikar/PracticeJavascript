@@ -84,3 +84,14 @@ else{
     console.log('city is available')
 }
 
+let xx = [8,6,7,14,24]
+let k= 21
+
+for(let i=0;i<=xx.length;i++){
+    for(let j=i+1;j<=xx.length;j++){
+        if((xx[i]+xx[j])==k){
+            console.log('true')
+        }
+        
+    }
+}
