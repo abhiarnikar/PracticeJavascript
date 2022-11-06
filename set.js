@@ -31,3 +31,4 @@ console.log(persons)
 persons.clear()
 
 console.log(persons)
+

@@ -20,7 +20,7 @@ aa.add(3,5) //NaN
 aa.add(14,25,65) //NaN
 aa.add(11,2,33,45) // 91
 
-// Method overriding
+// Method overloading
 //same class,same method Name,different signature
 
 class Addition1{
