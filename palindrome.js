@@ -19,10 +19,10 @@ function names(str){
 names('madam')
 names('aba')
 
-// let aaa = "i am study cypress"
+let aaa = "i am study cypress"
 
-// let bb = aaa.split(" ").reverse().join(" ")
-// console.log(bb)
+let bb = aaa.split(" ").reverse().join(" ")
+console.log(bb)
 
 let Name = (str)=>{
 
@@ -31,3 +31,8 @@ let Name = (str)=>{
 }
 
 Name('madam')
+
+let word1 = "my name is abhijit arnikar"
+
+let abc = word1.split(" ").reverse().join(' ')
+console.log(abc)
