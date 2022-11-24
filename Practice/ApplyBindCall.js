@@ -30,6 +30,8 @@ display1()
 // settng the value for this keyword
 // 1) bind()
 
+
+
 let display2 = display1.bind(info1)
 display2()
 
@@ -78,4 +80,4 @@ let displayD = function(word){
 }
 
 displayD.call(Person,"Hello")
-displayD.call(Person,['Good Morning'])
+displayD.apply(Person,['Good Morning'])

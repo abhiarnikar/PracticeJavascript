@@ -148,13 +148,3 @@ console.log(krushna)
 
 let name = "dev123yani"
 
-let rev1 = ''
-for(let i=0;i<name.length;i++){
-    if(name[i]==String){
-        rev1=name[i]+rev1
-    }
-    else{
-        rev1=name[i]
-    }
-}
-console.log(rev1)

@@ -39,7 +39,7 @@ console.log(cc)
 console.log(names)
 
 // method shift
-// remove the element from end of the array
+// remove the element from start of the array
 // return that element
 
 let dd = names.shift()
